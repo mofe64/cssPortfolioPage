@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+.container {
+  margin: 3% 10%;
+  /* margin-top: 3rem; */
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-left {
+  text-align: center;
+}
+.nav-left h1 {
+  font-size: 3rem;
+  color: #ff5678;
+}
+.nav-right {
+  text-align: center;
+}
+.nav-right ul {
+  list-style: none;
+  display: flex;
+  padding-top: 1rem;
+}
+.nav-right ul :not(:last-child) {
+  padding-left: 2rem;
+}
+.nav-right ul li a {
+  text-decoration: none;
+  color: #999999;
+  font-size: 2rem;
+}
+
+.color-background {
+  background-color: #ff5678;
+  margin-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: -1rem;
+  border-radius: 5px;
+}
+.color-background li a {
+  color: white !important;
+}
+.main {
+  display: flex;
+}
+.main-left {
+  width: 70%;
+}
+.main-left-header {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.main-left-text {
+  font-size: 2rem;
+}
+.main-left-cta {
+  display: flex;
+}
+.cta-left button {
+  background-color: #ff5678;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+  border-radius: 5px;
+}
+.cta-right {
+  margin-left: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+}
+.cta-right a {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.cta-right a img {
+  width: 20px;
+}
+
+.hero {
+  width: 70%;
+  margin-left: 5rem;
+}
+
+.about {
+  margin-top: 10rem;
+  display: flex;
+}
+.about-left {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.about-left-header {
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.about-left-header-colored {
+  color: #ff5678;
+}
+.about-left-text {
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.about-img {
+  margin-left: 10rem;
+  width: 70%;
+}
+
+.work-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.work-header-caption-colored {
+  color: #ff5678;
+}
+.work-header p {
+  color: #999999;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.work-body {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+}
+.work-entry {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 3rem;
+  width: 33%;
+}
+.work-duration {
+  color: #999999;
+  padding-bottom: 0.5rem;
+}
+.work-location {
+  color: #999999;
+  padding-bottom: 0.5rem;
+}
+.company-name {
+  color: black;
+}
+.work-role {
+  color: black;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+.skills {
+  background-color: #ffffff;
+}
+.skills-box {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.skills-header-caption-colored {
+  color: #ff5678;
+}
+.skill {
+  margin: 1rem 3rem;
+  padding: 1rem 1rem;
+  width: 20%;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 4px 6px -5px black;
+}
+.works {
+  margin-top: 5rem;
+}
+.work-heading-colored {
+  color: #ff5678;
+}
+.work-grid {
+  display: grid;
+  grid-template-areas:
+    "a a "
+    "b c"
+    "d e";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.topimage {
+  grid-area: a;
+  width: 94%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.middle-left {
+  grid-area: b;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.middle-right {
+  grid-area: c;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.bottom-left {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  grid-area: d;
+}
+.bottom-right {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  grid-area: e;
+}
