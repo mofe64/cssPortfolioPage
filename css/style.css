@@ -220,3 +220,74 @@ nav {
   padding-bottom: 2rem;
   grid-area: e;
 }
+.some-div {
+  display: flex;
+  justify-content: space-between;
+}
+.some-div-text h1 {
+  color: #999999;
+  font-size: 3rem;
+}
+.some-div-text p {
+  font-size: 2rem;
+}
+.some-div-text p span {
+  color: #ff5678;
+}
+
+.some-div-image {
+  padding-top: 4.5rem;
+  padding-right: 4rem;
+}
+.connect {
+  display: flex;
+  justify-content: space-between;
+}
+.connect-left h1 {
+  font-size: 3rem;
+}
+.connect-left h1 span {
+  color: #ff5678;
+}
+.connect-left p {
+  font-size: 1.6rem;
+}
+.connect-left button {
+  border: none;
+  outline: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #ff5678;
+  color: white;
+}
+.connect-right {
+  margin-right: 4rem;
+  padding-right: 4rem;
+}
+.connect-right h1 {
+  font-size: 3rem;
+}
+.connect-right h1 span {
+  color: #ff5678;
+}
+.connect-right div {
+  display: flex;
+  margin-top: 1rem;
+}
+.connect-right div p {
+  padding-left: 3rem;
+}
+.connect-right div img {
+  width: 20%;
+}
+footer {
+  margin-top: 5rem;
+  background-color: #ff5678;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
